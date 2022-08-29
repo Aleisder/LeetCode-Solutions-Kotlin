@@ -1,5 +1,8 @@
 package leetcode
 
+/*
+ * Task from LeetCode: https://leetcode.com/problems/power-of-three/
+ */
 fun isPowerOfThree(n: Int): Boolean {
     var number = n.toDouble()
     while (number > 1) {
