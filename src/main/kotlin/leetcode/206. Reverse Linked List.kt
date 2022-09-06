@@ -1,4 +1,5 @@
 package leetcode
+import datastructures.ListNode
 
 /*
  * Task from LeetCode: https://leetcode.com/problems/reverse-linked-list/
@@ -13,28 +14,6 @@ fun reverseList(head: ListNode?): ListNode? {
     head.next = null
     return rest
 }
-
-class ListNode(var root: Int) {
-    var next: ListNode? = null
-
-    fun push(node: Int) {
-        if (next == null) {
-            next = ListNode(node)
-        }
-        else {
-            next!!.push(node)
-        }
-    }
-
-    fun asList(): List<Int> {
-        return if (next == null) {
-            listOf(root)
-        } else {
-            listOf(root) + next!!.asList()
-        }
-    }
-}
-
 
 
 fun main() {
