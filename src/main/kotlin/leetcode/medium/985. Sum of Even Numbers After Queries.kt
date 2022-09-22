@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.medium
 
 /*
  * Task from LeetCode: https://leetcode.com/problems/sum-of-even-numbers-after-queries/

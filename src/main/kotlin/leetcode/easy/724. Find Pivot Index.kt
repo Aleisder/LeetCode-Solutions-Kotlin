@@ -1,5 +1,8 @@
-package leetcode
+package leetcode.easy
 
+/*
+ * Task from LeetCode: https://leetcode.com/problems/find-pivot-index/
+ */
 fun pivotIndex(nums: IntArray): Int {
     val sum = nums.sum()
     var leftSum = 0

@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.easy
 
 /*
  * Task from LeetCode: https://leetcode.com/problems/power-of-three/
