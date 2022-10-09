@@ -1,11 +1,11 @@
 package datastructures
 
-class TreeNode(var root: Int) {
+class TreeNode(var data: Int) {
     var left: TreeNode? = null
     var right: TreeNode? = null
 
     fun push(node: Int) {
-        if (node < root) {
+        if (node < data) {
             if (left == null) {
                 left = TreeNode(node)
             } else {
@@ -19,12 +19,4 @@ class TreeNode(var root: Int) {
             }
         }
     }
-}
-
-fun main() {
-    val tree = TreeNode(4)
-    tree.push(2)
-    tree.push(6)
-    tree.push(1)
-    println("Hello")
 }
